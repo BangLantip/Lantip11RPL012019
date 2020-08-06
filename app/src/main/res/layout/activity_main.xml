@@ -1,29 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+    android:background="#ffffff"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@mipmap/ftr"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Future"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
 
     <EditText
-    android:hint="username"
-    android:id="@+id/txtusername"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
+        android:hint="username"
+        android:id="@+id/txtusername"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="#797979"
+        android:backgroundTint="#797979"/>
 
     <EditText
-        android:inputType="textPassword"
         android:hint="password"
         android:id="@+id/txtpassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="#797979"
+        android:backgroundTint="#797979"/>
+
     <Button
         android:text="login"
         android:id="@+id/btnlogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#73DCEC"
+        android:textColor="#ffffff"/>
 
 </LinearLayout>
