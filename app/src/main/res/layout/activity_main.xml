@@ -27,7 +27,7 @@
 
 
     <EditText
-        android:hint="username"
+        android:hint="Username"
         android:id="@+id/txtusername"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
         android:backgroundTint="#797979"/>
 
     <EditText
-        android:hint="password"
+        android:hint="Password"
         android:id="@+id/txtpassword"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
